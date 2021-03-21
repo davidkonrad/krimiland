@@ -12,11 +12,11 @@ De manglende sider kan heller ikke indlæses / indekseres af t.ex Googles søger
 Er du dedikeret kan du blive collaboratør / medejer af projektet, så du kan lave opdateringer selv. Jeg er også parat til at overdrage hele molevitten til Krimiland.
 
 
-# www.estoniaferrydisaster.net rapport som PDF
+# estoniaferrydisaster.net rapport som PDF
 
 ### Fremgangsmåde
 
-Som det blev antydet i programmet, så er hjemmesiden med den tyske rapport ikke blot "gammeldags", men også særdeles vanskelig at navigere i. Der benyttes noget der kaldes `<frameset>` og `<iframe>`'s, samt total oldschool navigeringsmarkup placeret i `<map>` og `<area>`'s. Det gør umiddelbart siden umulig at crawle.
+Som det blev antydet i programmet, så er hjemmesiden med den tyske rapport ikke blot "gammeldags", men også særdeles vanskelig at navigere i. Der benyttes noget der kaldes `<frameset>` og `<iframe>`'s, samt total oldschool navigeringsmarkup placeret i `<map>` og `<area>`'s. Det gør i praksis sitet umulig at crawle.
 
 
 #### Download
@@ -26,7 +26,7 @@ Følger man de enkelte links manuelt kan man dog finde den relative sti til rapp
 $ wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/Contents.htm
 ```
 
-Det resulterer i et `/www.estoniaferrydisaster.net/..` katalog (se ovenover), hvor hele rapporten ligger i 123 (spøjst) forskellige filer, med navne som `chapter42.htm` og `germanxperts.htm`. Altså i uskøn orden, men trods alt med sigende, logiske filnavne.
+Det resulterer i et `/www.estoniaferrydisaster.net/..` katalog (se ovenover), hvor hele rapporten ligger i 123 (spøjst) forskellige filer, med navne som `chapter42.htm` og `germanxperts.htm`. Altså i uskøn orden, men trods alt med sigende logiske filnavne, man kan relatere til indekset.
 
 #### Samling
 Inde fra kataloget genereres en liste over samtlige filer:
@@ -40,8 +40,9 @@ Fordi filerne har sigende navne er det nemt (men omstændeligt, og opgav i førs
 ```bash
 $ xargs < filer.txt cat > ../estoniaferrydisaster.net.html
 ```
-
-Se estoniaferrydisaster.net.html her (åbner i nyt faneblad). 
+raw.githubusercontent.com
+<a href="raw.githubusercontent.com/davidkonrad/krimiland/www.estoniaferrydisaster.net/estoniaferrydisaster.net.html " target=_blank>her</a>
+Se her (åbner i nyt faneblad). 
 
 #### Billeder
 Det er kun selve teksten der er hentet ned og samlet, og desværre er samtlige billedreferencer baseret på relative `src`-stier, så rapporten er fuld af "tomme ruder".  For at fikse dette kan man hive samtlige billeder ned lokalt, og lægge dem i `/estonia final report/`-kataloget. Det giver mening hvis man vil sikre sin egen komplette kopi, men for at generere en PDF er det tilstrækkeligt at ændre de relative stier til absolutte:
