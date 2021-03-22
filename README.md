@@ -2,7 +2,7 @@
 Dette er relateret til Krimiland afsnit 10. Hør programmerne her https://www.radio4.dk/program/krimiland/
 
 Der bliver i afsnittet omtalt et interessant website, [estoniaferrydisaster.net](https:/www.estoniaferrydisaster.net)
-, som desværre er skæmmet af at være svært tilgængelig. Orris ærgrer sig over, at man ikke kan få fat i rapporten i papirformat eller PDF, og der jokes med om ikke nogle af lytterne kan tage opgaven på sig. Undertegnede tog handsken op, og dette er hvad man sådan lige kunne automatisere via konsollen. 
+, som desværre er skæmmet af at være svært tilgængelig. Orris ærgrer sig over, at man ikke kan få fat i rapporten i papirformat eller PDF, og der jokes med, om ikke nogle af lytterne kan tage opgaven på sig. Undertegnede tog handsken op, og dette er hvad man sådan lige kunne automatisere via konsollen. 
 
 Resultatet er ikke komplet!!! Og hvorfor og hvordan det er gjort beskrives nedenfor. Den genererede PDF er pt. 374 sider, men den er langt fra færdig, og der er uorden i indholdet. Der mangler (tilsyneladende) en masse enkeltstående sider. 
 
@@ -19,7 +19,7 @@ Krimiland kan "clone" projektet og køre det videre, så sletter/skjuler jeg det
 
 ### Fremgangsmåde
 
-Som det blev antydet i programmet, så er hjemmesiden med den tyske rapport ikke blot "gammeldags", men også særdeles vanskelig at navigere i. Der benyttes noget der kaldes `<frameset>` og `<iframe>`'s, samt total oldschool navigeringsmarkup placeret i `<map>` og `<area>`'s. Det gør i praksis sitet umulig at crawle.
+Som det blev antydet i programmet, så er hjemmesiden med den tyske rapport ikke blot "gammeldags", men også særdeles vanskelig at navigere i. Der benyttes noget der kaldes `<frameset>` og `<iframe>`'s, samt total oldschool navigeringsmarkup placeret i `<map>` og `<area>`'s. Dette gør i praksis sitet umulig at crawle programmeringsmæssigt.
 
 
 #### Download
