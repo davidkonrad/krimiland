@@ -2,7 +2,7 @@
 Dette er relateret til Krimiland afsnit 10. Hør programmerne her https://www.radio4.dk/program/krimiland/
 
 Der bliver i afsnittet omtalt et interessant website, [estoniaferrydisaster.net](https:/www.estoniaferrydisaster.net)
-, som desværre er skæmmet af at være svært tilgængelig. Orris ærgrer sig over, at man ikke kan få fat i rapporten i papirformat, og der jokes med om ikke nogle af lytterne kan tage opgaven på sig. Undertegnede tog handsken op, og dette er hvad man sådan lige kunne automatisere via konsollen. 
+, som desværre er skæmmet af at være svært tilgængelig. Orris ærgrer sig over, at man ikke kan få fat i rapporten i papirformat eller PDF, og der jokes med om ikke nogle af lytterne kan tage opgaven på sig. Undertegnede tog handsken op, og dette er hvad man sådan lige kunne automatisere via konsollen. 
 
 Resultatet er ikke komplet!!! Og hvorfor og hvordan det er gjort beskrives nedenfor. Den genererede PDF er pt. 374 sider, men den er langt fra færdig, og der er uorden i indholdet. Der mangler (tilsyneladende) en masse enkeltstående sider. 
 
@@ -10,9 +10,9 @@ Så hvis nogle er interesserede i at forbedre PDF'en, opret et issue med et link
 
 De manglende sider kan heller ikke indlæses / indekseres af t.ex Googles søgerobot. Men inden man spekulerer alt for meget over dette, så er det min bedømmelse, at sitet var state of the art dengang det blev bygget / lanceret. Så det er ikke en "villet" skyggetilværelse, teknikken har blot udviklet sig enormt siden.
  
-Er du dedikeret kan du blive collaborator / medejer af projektet, så du kan lave opdateringer selv. Jeg er også parat til at overdrage hele molevitten til Krimiland.
+Er du dedikeret kan du blive collaborator / medejer af projektet, så du kan lave opdateringer selv. Jeg er også parat til at overdrage hele molevitten til Krimiland. 
 
-Krimiland kan "clone" projektet, og så køre det videre, så kan jeg slette det her repositorie.
+Krimiland kan "clone" projektet og køre det videre, så sletter/skjuler jeg dette repositorie.
 
 
 # estoniaferrydisaster dot net rapport som PDF
@@ -54,8 +54,8 @@ $dom = new DOMDocument('1.0');
 $dom->loadHTMLFile($from);
 $images = $dom->getElementsByTagName('img');
 foreach($images as $image) {
-	$src = $image->getAttribute('src'); 
-	$image->setAttribute('src', 'https://www.estoniaferrydisaster.net/'.$src);
+   $src = $image->getAttribute('src'); 
+   $image->setAttribute('src', 'https://www.estoniaferrydisaster.net/'.$src);
 }
 $dom->save($to);
 ?>
