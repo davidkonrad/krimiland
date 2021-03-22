@@ -2,9 +2,9 @@
 Dette er relateret til Krimiland afsnit 10. Hør programmerne her https://www.radio4.dk/program/krimiland/
 
 Der bliver i afsnittet omtalt et interessant website, [estoniaferrydisaster.net](https:/www.estoniaferrydisaster.net)
-, som desværre er skæmmet af at være svært tilgængelig. Orris ærgrer sig over, at man ikke kan få fat i rapporten i papirformat eller PDF, og der jokes med, om ikke nogle af lytterne kan tage opgaven på sig. Undertegnede tog handsken op, og dette er hvad man sådan lige kunne automatisere via konsollen. 
+- et site som desværre er skæmmet af, at være svært tilgængelig. Orris ærgrer sig over, at man ikke kan få fat i rapporten i papirformat eller PDF, og der jokes med, om ikke nogle af lytterne kan tage opgaven på sig. Undertegnede tog handsken op, og dette er hvad man sådan lige kunne automatisere via konsollen. 
 
-Resultatet er ikke komplet!!! Og hvorfor og hvordan det er gjort beskrives nedenfor. Den genererede PDF er pt. 374 sider, men den er langt fra færdig, og der er uorden i indholdet. Der mangler (tilsyneladende) en masse enkeltstående sider. 
+Resultatet er langt fra komplet!! Og hvorfor og hvordan det er gjort beskrives nedenfor. Den genererede PDF er pt. 374 sider, men den er næppe færdig, og der er uorden i indholdet. Der mangler (tilsyneladende) en masse enkeltstående sider. 
 
 Så hvis nogle er interesserede i at forbedre PDF'en, opret et issue med et link (eller det der ligner), til den eller de sider der mangler, så kan jeg hente dem ned og køre de 3 step forfra og dermed fabrikere en bedre PDF. Det gælder også hvis du mener der skal ændres i ordenen af indholdet, eller whatever. 
 
