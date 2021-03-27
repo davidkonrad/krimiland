@@ -1,7 +1,6 @@
 Contents.htm
 preface.htm
 Thecasualty.htm
-preface.htm
 germanxperts.htm
 2.2.htm
 2.3.htm
