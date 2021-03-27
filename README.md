@@ -1,3 +1,10 @@
+# :bulb:  Download / se PDF'en
+Det væsentlige er jo PDF'en, og hvis man ikke i forvejen kender GitHub kan det måske virke forvirrende. Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor (~23mb) og tager tid at renderere indlejret på siden. `rawgithub.com` er desværre ved at blive udfaset, og GitHub ignorerer `target` i links. Alternativer:
+
+1. Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf i et nyt faneblad, eller
+2. Download zip https://github.com/davidkonrad/krimiland/archive/refs/heads/main.zip, eller
+3. Kopier hele repositoriet `$ git clone https://github.com/davidkonrad/krimiland.git`
+
 # Krimiland, opfølgning
 Dette er relateret til Krimiland afsnit 10. Hør programmerne her https://www.radio4.dk/program/krimiland/
 
