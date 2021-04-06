@@ -93,3 +93,6 @@ Tilføjede bilag 2.4.4.47
 
 Der begynder at danne sig et mønster. Den sidste "decimal" i det semver-lignende regime er tilsyneladende en fortløbende liste af bilags-numre ...
 
+Tilføjede bilag 2.4.4.57
+`wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.4.57.htm`
+
