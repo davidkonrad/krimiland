@@ -75,7 +75,12 @@ Brug chromium-browserens indbyggede print -> destination -> save as PDF.
 Liste over manuelle tilføjelser. Dvs. afsnit, bilag, billeder, de såkaldte "enclosures" o.lign som ikke blev fanget af den oprindelige rekursive `wget`, og som rummer t.ex indscannede emails og underkataloger med billeder.  Alle tilføjelser er en firetrinsraket: Download det relevante materiale, ret `filer.txt`, kør `fix-billeder.php`, generer PDF via en Chromium-browser.
 
 *06.04.2021*
-Enclosure 2.4.2.21, fixed relative stier i `fix-billeder.php`.
+
+Tilføjede bilag 2.4.2.21, fixed relative stier i `fix-billeder.php`.
 `$ wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.2.21.htm`
 
+Tilføjede afsnit 2.5.3
+`$ wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/2.5.3.htm`
 
+Tilføjede bilag 2.4.5.60
+`wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.5.60.htm`
