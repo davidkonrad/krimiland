@@ -84,3 +84,6 @@ Tilføjede afsnit 2.5.3
 
 Tilføjede bilag 2.4.5.60
 `wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.5.60.htm`
+
+Tilføjede bilag 2.4.6.63
+`wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.6.63.htm`
