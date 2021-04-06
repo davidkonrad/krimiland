@@ -77,22 +77,33 @@ Liste over manuelle tilføjelser. Dvs. afsnit, bilag, billeder, de såkaldte "en
 *06.04.2021*
 
 Tilføjede bilag 2.4.2.21, fixed relative stier i `fix-billeder.php`.
-`$ wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.2.21.htm`
+```bash
+$ wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.2.21.htm
+```
 
 Tilføjede afsnit 2.5.3
+```bash
 `$ wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/2.5.3.htm`
-
+```
 Tilføjede bilag 2.4.5.60
+```bash
 `wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.5.60.htm`
 
 Tilføjede bilag 2.4.4.59
+```bash
 `wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.4.59.htm`
-
+```
 Tilføjede bilag 2.4.4.47
+```bash
 `wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.4.47.htm`
-
+```
 Der begynder at danne sig et mønster. Den sidste "decimal" i det semver-lignende regime er tilsyneladende en fortløbende liste af bilags-numre ...
 
 Tilføjede bilag 2.4.4.57
+```bash
 `wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.4.57.htm`
-
+```
+Tilføjede bilag 2.4.4.55
+```bash
+`wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.4.55.htm`
+```
