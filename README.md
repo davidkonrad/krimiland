@@ -13,7 +13,7 @@ Der bliver i afsnittet omtalt et interessant website, [estoniaferrydisaster.net]
 
 Resultatet er langt fra komplet!! Og hvorfor og hvordan det er gjort beskrives nedenfor. Den genererede PDF er pt. 374 sider, men den er næppe færdig, og der er uorden i indholdet. Der mangler (tilsyneladende) en masse enkeltstående sider. 
 
-Så hvis nogle er interesserede i at forbedre PDF'en, opret et issue med et link (eller det der ligner), til den eller de sider der mangler, så kan jeg hente dem ned og køre de 3 step forfra og dermed fabrikere en bedre PDF. Det gælder også hvis du mener der skal ændres i ordenen af indholdet, eller whatever. 
+Så hvis nogle er interesserede i at forbedre PDF'en, opret et issue med et link (eller det der ligner), til den eller de sider der mangler, så kan jeg hente dem ned og køre de 4 step forfra og dermed fabrikere en bedre PDF. Det gælder også hvis du mener der skal ændres i ordenen af indholdet, eller whatever. 
 
 De manglende sider kan heller ikke indlæses / indekseres af t.ex Googles søgerobot. Men inden man spekulerer alt for meget over dette, så er det min bedømmelse, at sitet var state of the art dengang det blev bygget / lanceret. Så det er ikke en "villet" skyggetilværelse, teknikken har blot udviklet sig enormt siden.
  
@@ -61,7 +61,7 @@ $dom = new DOMDocument('1.0');
 $dom->loadHTMLFile($from);
 $images = $dom->getElementsByTagName('img');
 foreach($images as $image) {
-   $src = $image->getAttribute('src'); 
+   $src = str_replace('../', 'estonia%20final%20report/', $image->getAttribute('src')); 
    $image->setAttribute('src', 'https://www.estoniaferrydisaster.net/'.$src);
 }
 $dom->save($to);
@@ -70,4 +70,12 @@ $dom->save($to);
 
 #### PDF
 Brug chromium-browserens indbyggede print -> destination -> save as PDF. 
+
+## Historik
+Liste over manuelle tilføjelser. Dvs. afsnit, bilag, billeder, de såkaldte "enclosures" o.lign som ikke blev fanget af den oprindelige rekursive `wget`, og som rummer t.ex indscannede emails og underkataloger med billeder.  Alle tilføjelser er en firetrinsraket: Download det relevante materiale, ret `filer.txt`, kør `fix-billeder.php`, generer PDF via en Chromium-browser.
+
+*06.04.2021*
+Enclosure 2.4.2.21, fixed relative stier i `fix-billeder.php`.
+`$ wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.2.21.htm`
+
 
