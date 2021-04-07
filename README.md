@@ -45,12 +45,12 @@ $ ls -R > _rapport.txt
 Fordi filerne har sigende navne kan det lade sig gøre at samle teksterne til et layout der honorerer rapportens "flow". Jeg er ved at gå rapporten igennem for at høste bilags-links, og kan sjusse mig frem til den korrekte orden undervejs.  Man kan samle rapporten med
 
 ```bash
-xargs < _rapport.txt cat > ../estoniaferrydisaster.net.html
+$ xargs < _rapport.txt cat > ../estoniaferrydisaster.net.html
 ```
 Har valgt at placere bilagene i deres egen PDF.  Det bliver for rodet at lægge links i forlængese af de afsnit de logisk hører til (som det blev gjort i starten) og at placere dem alle f.eks i bunden vil bare give masser af scrolleri i et kæmpestort dokument. De fleste bilag er forsynet med klar nummerering, og lagt i fortløbende  nummerorden. Referencer til downloadede bilag ligger i `_bilag.txt`, og for at generere bilag-filen kan man skrive 
 
 ```bash
-xargs < _bilag.txt cat > ../estoniaferrydisaster.net.bilag.html
+$ xargs < _bilag.txt cat > ../estoniaferrydisaster.net.bilag.html
 ```
 
 #### Billeder
@@ -65,7 +65,7 @@ function fix($from, $to) {
   foreach($images as $image) {
     $src = $image->getAttribute('src');
     $src = str_replace('../', 'estonia%20final%20report/', $src);
-    if (substr($src, 0, 7 ) === 'images/') {
+    if (substr($src, 0, 7) === 'images/') {
       $src = 'estonia%20final%20report/'.$src;
     }
     $image->setAttribute('src', 'https://www.estoniaferrydisaster.net/'.$src);
