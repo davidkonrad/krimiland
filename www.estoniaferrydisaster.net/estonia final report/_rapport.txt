@@ -31,6 +31,7 @@ chapter6.htm
 6.4.htm
 6.5.2.htm
 6.5.htm
+chapter7.htm
 7.2.htm
 7.3.htm
 12.2-3.HTM
@@ -119,7 +120,6 @@ chapter40.htm
 chapter41.htm
 chapter42.htm
 chapter43.htm
-chapter7.htm
 chapter8.htm
 chapter9.htm
 
