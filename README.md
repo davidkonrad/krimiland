@@ -83,31 +83,38 @@ $ wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enc
 
 Tilføjede afsnit 2.5.3
 ```bash
-`$ wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/2.5.3.htm`
+$ wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/2.5.3.htm
 ```
 Tilføjede bilag 2.4.5.60
 ```bash
-`wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.5.60.htm`
+wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.5.60.htm`
 ```
 Tilføjede bilag 2.4.4.59
 ```bash
-`wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.4.59.htm`
+wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.4.59.htm
 ```
 Tilføjede bilag 2.4.4.47
 ```bash
-`wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.4.47.htm`
+wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.4.47.htm
 ```
 Der begynder at danne sig et mønster. Den sidste "decimal" i det semver-lignende regime er tilsyneladende en fortløbende liste af bilags-numre ...Desværre kukker det selv for dem. T.ex er Enclosure 2.4.6.64 samme som Enclosure 2.4.6.63, der ikke findes, men som der refereres til flere steder. Så allerede nu kan det konstateres, at der vil være "huller" i rapporten. Kan ikke fortænke forfatterne i at køre vild i det, man ville heller aldrig i dag acceptere så vilkårlig struktur. Men så igen, som jeg anerkender andetsteds, da det blev lavet var det state of the art.  Det må have taget utrolig lang tid at bygge et med nutidige øjne så forvirrende website op, men websitet afspejler primært en akademisk tilgang til stoffet. Det har sikkert aldrig været hensigten eller formålet, at det skulle kunne læses af andre end projektdeltagerne selv.
 
 Tilføjede bilag 2.4.4.57
 ```bash
-`wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.4.57.htm`
+wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.4.57.htm
 ```
 Tilføjede bilag 2.4.4.55
 ```bash
-`wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.4.55.htm`
+wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.4.55.htm
 ```
 Tilføjede bilag 2.4.2.27
 ```bash
-`wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.2.27.htm`
+wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.2.27.htm
+```
+
+*07.04.2021*
+
+Tilføjede bilag 12.2.139
+```bash
+wget -r -l 1  https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/12.2.139.htm
 ```
