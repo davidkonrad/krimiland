@@ -23,7 +23,10 @@ underfinnishflag.htm
 chapter3.htm
 3.2.4-3.3.htm
 3.4.htm
+chapter4.htm
+chapter5.htm
 5.3.htm
+chapter6.htm
 6.3.1.htm
 6.4.htm
 6.5.2.htm
@@ -116,9 +119,6 @@ chapter40.htm
 chapter41.htm
 chapter42.htm
 chapter43.htm
-chapter4.htm
-chapter5.htm
-chapter6.htm
 chapter7.htm
 chapter8.htm
 chapter9.htm

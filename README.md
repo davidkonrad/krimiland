@@ -5,7 +5,7 @@ Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor
 Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf i et nyt faneblad (pt ∼24mb, 376 sider, mangler stadig en del sortering)
 
 #### Bilag
-Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf i et nyt faneblad (pt ∼48mb, 402 sider, gætter ca 50% er nået) 
+Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf i et nyt faneblad (pt ∼64mb, 602 sider, gætter ca 50% er nået) 
 
 #### Alle filer
 1. Download zip https://github.com/davidkonrad/krimiland/archive/refs/heads/main.zip, eller
@@ -183,7 +183,23 @@ https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/3
 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/3.4.96.htm
 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/3.4.97.htm
 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/3.4.98.htm
-
-wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.2.20.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/3.4.99.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/3.4.100.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/3.4.101.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/3.4.102.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/3.4.103.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/3.4.104.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/3.4.105.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/4.106.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/5.107.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/5.2.108.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/5.2.109.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/5.2.110.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/5.3.111.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/6.1.112.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/6.1.113.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/6.2.114.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/6.3.115.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/6.3.116.1.htm
 
 ```
