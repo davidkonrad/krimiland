@@ -141,10 +141,10 @@ https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/9
 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/9.3.137.htm
 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/9.1.136.htm
 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/9.3.136.1.htm
-
-
-
-
-
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/12.1.138.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/12.3.140.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/12.3.141.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/12.3.143.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc%202/13.193.htm
 
 ```
