@@ -7,9 +7,9 @@ Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor
 #### Bilag
 GitHub er ikke så glad for store filer (>50mb) så bilagene må splittes yderligere op i bilag 1-50, 51-100, 101-150 osv.  Alle bilagsreferencer er forsynet med et fortløbende bilagsnummer i enden. T.ex bilag 2.4.2.22, her er det unikke bilagsnummer 22, og det hører til kapitel 2, afsnit 4, underafsnit 2.
 
-https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf <small>(155s, ∼20mb)</small>
-https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_51.pdf <small>(168s, ∼18mb)</small>
-https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_101.pdf <small>(313s, ∼25mb)</small>
+https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf <sup>(∼144s, ∼21mb)</sup>
+https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_51.pdf <sup>(∼167s, ∼18mb)</sup>
+https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_101.pdf <sup>(∼370s, ∼30mb)</sup>
 
 Vi har altså rundet 1,000 sider, men det kan man ikke regne med. T.ex fylder hvert billede en A4-side, uanset størrelse, og de er forsynet med statiske, hardcodede  `width` / `height`-værdier. Vil forsøge at trække bilagenes `title` ud som billedoverskrifter, og sætte størrelserne på dem fri.
 
