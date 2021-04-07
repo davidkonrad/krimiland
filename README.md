@@ -1,4 +1,4 @@
-# :bulb:  Download / se PDF'er 
+# :ferry:  Download / se PDF'er 
 Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor og tager tid at renderere indlejret på siden.  Desværre ignorerer GitHub  `target` i links. 
 
 #### Selve rapporten
