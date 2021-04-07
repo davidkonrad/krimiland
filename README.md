@@ -1,26 +1,23 @@
-# :bulb:  Download / se PDF'en
-Det væsentlige er jo PDF'en, og hvis man ikke i forvejen kender GitHub kan det måske virke forvirrende. Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor (~30mb, 445 sider) og tager tid at renderere indlejret på siden.  Desværre ignorerer GitHub  `target` i links. Alternativer:
+# :bulb:  Download / se PDF'er 
+Hvis ikke man kender GitHub i forvejen kan det måske virke forvirrende. Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor og tager tid at renderere indlejret på siden.  Desværre ignorerer GitHub  `target` i links. Alternativer:
 
-1. Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf i et nyt faneblad, eller
-2. Download zip https://github.com/davidkonrad/krimiland/archive/refs/heads/main.zip, eller
-3. Kopier hele repositoriet `$ git clone https://github.com/davidkonrad/krimiland.git`
+**Rapporten**
+Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf i et nyt faneblad (pt &tilde;24mb, 376 sider, mangler stadig en del sortering)
+
+**Bilag**
+Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag,pdf i et nyt faneblad (pt &tilde;48mb, 402 sider, gætter ca 50% er nået) 
+
+**Alle filer**
+1. Download zip https://github.com/davidkonrad/krimiland/archive/refs/heads/main.zip, eller
+2. Kopier hele repositoriet `$ git clone https://github.com/davidkonrad/krimiland.git`
 
 # Krimiland, opfølgning
 Dette er relateret til Krimiland afsnit 10. Hør programmerne her https://www.radio4.dk/program/krimiland/
 
 Der bliver i afsnittet omtalt et interessant website, [estoniaferrydisaster.net](https:/www.estoniaferrydisaster.net)
- -- et site som desværre er skæmmet af, at være svært tilgængelig. Orris ærgrer sig over, at man ikke kan få fat i rapporten i papirformat eller PDF, og der jokes med, om ikke nogle af lytterne kan tage opgaven på sig. Undertegnede tog handsken op, og dette er hvad man sådan lige kunne automatisere via konsollen. 
+ -- et site som desværre er skæmmet af, at være svært tilgængelig. Orris ærgrer sig over, at man ikke kan få fat i rapporten i papirformat eller PDF, og der jokes med, om ikke nogle af lytterne kan tage opgaven på sig.  Dette er et foreløbigt resultat. 
 
-Resultatet er langt fra komplet!! Og hvorfor og hvordan det er gjort beskrives nedenfor. Den genererede PDF er pt. 374 sider, men den er næppe færdig, og der er uorden i indholdet. Der mangler (tilsyneladende) en masse enkeltstående sider. 
-
-Så hvis nogle er interesserede i at forbedre PDF'en, opret et issue med et link (eller det der ligner), til den eller de sider der mangler, så kan jeg hente dem ned og køre de 4 step forfra og dermed fabrikere en bedre PDF. Det gælder også hvis du mener der skal ændres i ordenen af indholdet, eller whatever. 
-
-De manglende sider kan heller ikke indlæses / indekseres af t.ex Googles søgerobot. Men inden man spekulerer alt for meget over dette, så er det min bedømmelse, at sitet var state of the art dengang det blev bygget / lanceret. Så det er ikke en "villet" skyggetilværelse, teknikken har blot udviklet sig enormt siden.
- 
-Er du dedikeret kan du blive collaborator / medejer af projektet, så du kan lave opdateringer selv. Jeg er også parat til at overdrage hele molevitten til Krimiland. 
-
-Krimiland kan "clone" projektet og køre det videre, så sletter/skjuler jeg dette repositorie.
-
+#### Forslag / rettelser / forglemmelser, alle er velkomne til at oprette et [issue](https://github.com/davidkonrad/krimiland/issues). 
 
 # estoniaferrydisaster dot net rapport som PDF
 
@@ -30,58 +27,66 @@ Som det blev antydet i programmet, så er hjemmesiden med den tyske rapport ikke
 
 
 #### Download
-Følger man de enkelte links manuelt kan man dog finde den relative sti til rapportens index - `estonia final report/Contents.htm` - og via den downloade "hele" rapporten. Ja, altså kun de sider der direkte linkes til, og så deres undersider rekursivt. Men visse dele af rapporten er kun tilgængelig via disse `<area>` tags. I Linux kan man skrive:
+Man kan hente rapportens indeks og de filer denne linker til rekursivt med 
 
 ```bash
 $ wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/Contents.htm
 ```
 
-Det resulterer i et `/www.estoniaferrydisaster.net/..` katalog (se ovenover), hvor hele rapporten ligger i 123 (spøjst) forskellige filer, med navne som `chapter42.htm` og `germanxperts.htm`. Altså i uskøn orden, men trods alt med sigende logiske filnavne, man kan relatere til ift. indekset.
+Det resulterer i et `/www.estoniaferrydisaster.net/..` katalog (se ovenover), hvor hele rapporten ligger i forskellige filer med navne som `chapter42.htm` og `germanxperts.htm`. Altså i uskøn orden, men trods alt med sigende logiske filnavne, man kan relatere til ift. indekset.
 
 #### Samling
 Inde fra kataloget genereres en liste over samtlige filer:
 
 ```bash
-$ ls -R > filer.txt
+$ ls -R > _rapport.txt
 ```
 
-Fordi filerne har sigende navne er det nemt (men omstændeligt, og har opgivet for nærværende at blive færdig) at sortere i listen så rækkefølgen stemmer overens med indekset og en kapitel 1-43 orden. Når det er gjort kan man med lidt mere konsolmagi samle hele rapporten: 
+Fordi filerne har sigende navne kan det lade sig gøre at samle teksterne til et layout der honorerer rapportens "flow". Jeg er ved at gå rapporten igennem for at høste bilags-links, og kan sjusse mig frem til den korrekte orden undervejs.  Man kan samle rapporten med
 
 ```bash
-$ xargs < filer.txt cat > ../estoniaferrydisaster.net.html
+xargs < _rapport.txt cat > ../estoniaferrydisaster.net.html
 ```
+Har valgt at placere bilagene i deres egen PDF.  Det bliver for rodet at lægge links i forlængese af de afsnit de logisk hører til (som det blev gjort i starten) og at placere dem alle f.eks i bunden vil bare give masser af scrolleri i et kæmpestort dokument. De fleste bilag er forsynet med klar nummerering, og lagt i fortløbende  nummerorden. Referencer til downloadede bilag ligger i `_bilag.txt`, og for at generere bilag-filen kan man skrive 
+
+```bash
+xargs < _bilag.txt cat > ../estoniaferrydisaster.net.bilag.html
+```
+
 #### Billeder
 Det er kun selve teksten der er hentet ned og samlet, og desværre er samtlige billedreferencer baseret på relative `src`-stier, så rapporten er fuld af "tomme ruder".  For at fikse dette kan man hive samtlige billeder ned lokalt, og lægge dem i `/estonia final report/`-kataloget. Det giver mening hvis man vil sikre sin egen komplette kopi, men for at generere en PDF er det tilstrækkeligt at ændre de relative stier til absolutte:
 
 ```php
 <?php
-$from = 'www.estoniaferrydisaster.net/estoniaferrydisaster.net.html';
-$to = 'www.estoniaferrydisaster.net/estoniaferrydisaster.net.fixed.html';
-$dom = new DOMDocument('1.0');
-$dom->loadHTMLFile($from);
-$images = $dom->getElementsByTagName('img');
-foreach($images as $image) {
-   $src = str_replace('../', 'estonia%20final%20report/', $image->getAttribute('src')); 
-   $image->setAttribute('src', 'https://www.estoniaferrydisaster.net/'.$src);
+function fix($from, $to) {
+  $dom = new DOMDocument('1.0');
+  $dom->loadHTMLFile($from);
+  $images = $dom->getElementsByTagName('img');
+  foreach($images as $image) {
+    $src = $image->getAttribute('src');
+    $src = str_replace('../', 'estonia%20final%20report/', $src);
+    if (substr($src, 0, 7 ) === 'images/') {
+      $src = 'estonia%20final%20report/'.$src;
+    }
+    $image->setAttribute('src', 'https://www.estoniaferrydisaster.net/'.$src);
+  }
+  $dom->save($to);
 }
-$dom->save($to);
+fix('www.estoniaferrydisaster.net/estoniaferrydisaster.net.html', 
+    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.fixed.html');
+fix('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag.html', 
+    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag.fixed.html');
 ?>
 ```
 
 #### PDF
-Brug chromium-browserens indbyggede print -> destination -> save as PDF. 
+Åbn `estoniaferrydisaster.net.fixed.html` / `estoniaferrydisaster.net.bilag.fixed.html` med en chromium-browser, og brug den indbyggede print -> destination -> save as PDF. 
 
 ## Historik
-Liste over manuelle tilføjelser. Dvs. afsnit, bilag, billeder, de såkaldte "enclosures" o.lign som ikke blev fanget af den oprindelige rekursive `wget`, og som rummer t.ex indscannede emails og underkataloger med billeder.  Alle tilføjelser er en firetrinsraket: Download det relevante materiale, ret `filer.txt`, kør `fix-billeder.php`, generer PDF via en Chromium-browser.
+Liste over manuelle tilføjelser. Dvs. afsnit, bilag, billeder, de såkaldte "enclosures" o.lign som ikke blev fanget af den oprindelige rekursive `wget`, og som rummer t.ex indscannede emails og underkataloger med billeder. 
 
-***06.04.2021***
-
-Tilføjede bilag 2.4.2.21, dvs
 ```bash
-$ wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.2.21.htm
-```
-samt 
-```bash
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.2.21.htm
 https://www.estoniaferrydisaster.net/estonia%20final%20report/2.5.3.htm
 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.5.60.htm
 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.4.59.htm
@@ -89,16 +94,7 @@ https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2
 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.4.57.htm
 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.4.55.htm
 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.2.27.htm
-```
-
-***07.04.2021***
-
-Tilføjede bilag 12.2.139, dvs
-```bash
-wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/12.2.139.htm
-```
-samt
-```bash
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/12.2.139.htm
 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.3.1.5.htm
 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.3.1.6.htm
 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.3.1.7.htm
@@ -189,9 +185,6 @@ https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/3
 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/3.4.97.htm
 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/3.4.98.htm
 
-
 wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.2.20.htm
-
-
 
 ```
