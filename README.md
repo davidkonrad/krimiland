@@ -96,4 +96,4 @@ $ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_101
 Men `--print-to-pdf` medtager *altid* title, en grim header og sidetal. Så "pæne" PDF'er må fabrikeres manuelt.
 
 ## Historik
-se **bilag.md**.
+se [bilag.md](bilag.md).
