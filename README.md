@@ -122,3 +122,8 @@ Tilføjede bilag 2.3.1.5
 ```bash
 wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.3.1.5.htm
 ```
+Tilføjede bilag 2.3.1.6
+```bash
+wget -r -l 1 
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.3.1.6.htm
+```
