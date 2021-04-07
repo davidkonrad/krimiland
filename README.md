@@ -1,11 +1,11 @@
 # :bulb:  Download / se PDF'er 
-Hvis ikke man kender GitHub i forvejen kan det måske virke forvirrende. Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor og tager tid at renderere indlejret på siden.  Desværre ignorerer GitHub  `target` i links. Alternativer:
+Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor og tager tid at renderere indlejret på siden.  Desværre ignorerer GitHub  `target` i links. 
 
 **Rapporten**
-Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf i et nyt faneblad (pt &tilde;24mb, 376 sider, mangler stadig en del sortering)
+Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf i et nyt faneblad (pt ∼24mb, 376 sider, mangler stadig en del sortering)
 
 **Bilag**
-Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag,pdf i et nyt faneblad (pt &tilde;48mb, 402 sider, gætter ca 50% er nået) 
+Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf i et nyt faneblad (pt ∼48mb, 402 sider, gætter ca 50% er nået) 
 
 **Alle filer**
 1. Download zip https://github.com/davidkonrad/krimiland/archive/refs/heads/main.zip, eller
