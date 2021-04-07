@@ -17,9 +17,9 @@ Dette er relateret til Krimiland afsnit 10. Hør programmerne her https://www.ra
 Der bliver i afsnittet omtalt et interessant website, [estoniaferrydisaster.net](https:/www.estoniaferrydisaster.net)
  -- et site som desværre er skæmmet af, at være svært tilgængelig. Orris ærgrer sig over, at man ikke kan få fat i rapporten i papirformat eller PDF, og der jokes med, om ikke nogle af lytterne kan tage opgaven på sig.  Dette er et foreløbigt resultat. 
 
-#### Forslag / rettelser / forglemmelser, alle er velkomne til at oprette et [issue](https://github.com/davidkonrad/krimiland/issues). 
+**Forslag / rettelser / forglemmelser, alle er mere end velkomne til at oprette et [issue](https://github.com/davidkonrad/krimiland/issues)**. 
 
-# estoniaferrydisaster dot net rapport som PDF
+# estoniaferrydisaster.net rapport som PDF
 
 ### Fremgangsmåde
 
