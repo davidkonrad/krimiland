@@ -2,16 +2,16 @@
 Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor og tager tid at renderere indlejret på siden.  Desværre ignorerer GitHub  `target` i links. 
 
 #### Selve rapporten
-Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf i et nyt faneblad (pt ∼24mb, 376 sider, mangler stadig en del sortering)
+Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf i et nyt faneblad<sup> (pt ∼23mb, 398 sider, mangler stadig en del sortering)</sup>
 
 #### Bilag
 GitHub er ikke så glad for store filer (>50mb) så bilagene må splittes yderligere op i bilag 1-50, 51-100, 101-150 osv.  Alle bilagsreferencer er forsynet med et fortløbende bilagsnummer i enden. T.ex bilag 2.4.2.22, her er det unikke bilagsnummer 22, og det hører til kapitel 2, afsnit 4, underafsnit 2.
 
-https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf <sup>(∼144s, ∼21mb)</sup>
-https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_51.pdf <sup>(∼167s, ∼18mb)</sup>
-https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_101.pdf <sup>(∼370s, ∼30mb)</sup>
+https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf <sup>(∼144s, ∼23mb)</sup>
+https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_51.pdf <sup>(∼163s, ∼18mb)</sup>
+https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_101.pdf <sup>(∼468s, ∼36mb)</sup>
 
-Vi har altså rundet 1,000 sider, men det kan man ikke regne med. T.ex fylder hvert billede en A4-side, uanset størrelse, og de er forsynet med statiske, hardcodede  `width` / `height`-værdier. Vil forsøge at trække bilagenes `title` ud som billedoverskrifter, og sætte størrelserne på dem fri.
+Vi har altså rundet 1.000 sider, men det kan man ikke regne med. T.ex fylder hvert billede en A4-side, uanset størrelse, og de er forsynet med statiske, hardcodede  `width` / `height`-værdier. Vil forsøge at trække bilagenes `title` ud som billedoverskrifter, og sætte størrelserne på dem fri.
 
 #### Alle filer
 1. Download zip https://github.com/davidkonrad/krimiland/archive/refs/heads/main.zip, eller
