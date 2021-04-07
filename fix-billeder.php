@@ -16,7 +16,26 @@ function fix($from, $to) {
 	$dom->save($to);
 }
 
-fix('www.estoniaferrydisaster.net/estoniaferrydisaster.net.html', 'www.estoniaferrydisaster.net/estoniaferrydisaster.net.fixed.html');
-fix('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag.html', 'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag.fixed.html');
+fix('www.estoniaferrydisaster.net/estoniaferrydisaster.net.html', 
+    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.fixed.html');
+
+fix('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag.html', 
+    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag.fixed.html');
+
+fix('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_51.html', 
+    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_51.fixed.html');
+
+fix('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_101.html', 
+    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_101.fixed.html');
+
+
+//
+$ chrome --headless --print-to-pdf="estoniaferrydisaster.net.bilag_101.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_101.fixed.html
+
+chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_101.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_101.fixed.html
+chromium-browser --headless --print-to-pdf-no-header --print-to-pdf="estoniaferrydisaster.net.bilag_51.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_51.fixed.html
+
+
+
 
 ?>

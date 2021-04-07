@@ -5,7 +5,13 @@ Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor
 Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf i et nyt faneblad (pt ∼24mb, 376 sider, mangler stadig en del sortering)
 
 #### Bilag
-Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf i et nyt faneblad (pt ∼64mb, 602 sider, gætter ca 50% er nået) 
+GitHub er ikke så glad for store filer (>50mb) så bilagene må splittes yderligere op i bilag 1-50, 51-100, 101-150 osv.  Alle bilagsreferencer er forsynet med et fortløbende bilagsnummer i enden. T.ex bilag 2.4.2.22, her er det unikke bilagsnummer 22, og det hører til kapitel 2, afsnit 4, underafsnit 2.
+
+https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf (155s, ∼20mb)
+https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_51.pdf (168s, ∼18mb)
+https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_101.pdf (313s, ∼25mb)
+
+Vi har altså rundet 1,000 sider, men det kan man ikke regne med. T.ex fylder hvert billede en A4-side, uanset størrelse, og de er forsynet med statiske, hardcodede  `width` / `height`-værdier. Vil forsøge at trække bilagenes `title` ud som billedoverskrifter, og sætte størrelserne på dem fri.
 
 #### Alle filer
 1. Download zip https://github.com/davidkonrad/krimiland/archive/refs/heads/main.zip, eller
@@ -51,6 +57,8 @@ Har valgt at placere bilagene i deres egen PDF.  Det bliver for rodet at lægge 
 
 ```bash
 $ xargs < _bilag.txt cat > ../estoniaferrydisaster.net.bilag.html
+$ xargs < _bilag_51.txt cat > ../estoniaferrydisaster.net.bilag_51.html
+$ xargs < _bilag_101.txt cat > ../estoniaferrydisaster.net.bilag_101.html
 ```
 
 #### Billeder
@@ -71,15 +79,21 @@ function fix($from, $to) {
   }
   $dom->save($to);
 }
-fix('www.estoniaferrydisaster.net/estoniaferrydisaster.net.html', 
-    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.fixed.html');
-fix('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag.html', 
-    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag.fixed.html');
+fix('www.estoniaferrydisaster.net/estoniaferrydisaster.net.html',  'www.estoniaferrydisaster.net/estoniaferrydisaster.net.fixed.html');
 ?>
 ```
+Se flere detaljer i `fix-billeder.php'.
 
 #### PDF
-Åbn `estoniaferrydisaster.net.fixed.html` / `estoniaferrydisaster.net.bilag.fixed.html` med en chromium-browser, og brug den indbyggede print -> destination -> save as PDF. 
+Åbn `estoniaferrydisaster.net.fixed.html` / `estoniaferrydisaster.net.bilag.fixed.html` (osv) med en chromium-browser, og brug den indbyggede print -> destination -> save as PDF.  Som genvej kan man generere PDF'erne i konsollen:
+
+```bash
+$ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.fixed.html
+$ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag.fixed.html
+$ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_51.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_51.fixed.html
+$ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_101.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_101.fixed.html
+```
+Men `--print-to-pdf` medtager *altid* title, en grim header og sidetal. Så "pæne" PDF'er må fabrikeres manuelt.
 
 ## Historik
 Liste over manuelle tilføjelser. Dvs. afsnit, bilag, billeder, de såkaldte "enclosures" o.lign som ikke blev fanget af den oprindelige rekursive `wget`, og som rummer t.ex indscannede emails og underkataloger med billeder. 
