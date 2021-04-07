@@ -118,8 +118,7 @@ Tilføjede bilag 12.2.139
 ```bash
 wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/12.2.139.htm
 ```
-I tror sikkert jeg er dum, hvorfor ikke bare 
+Tilføjede bilag 2.3.1.5
 ```bash
-wget -r -l https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/
+wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.3.1.5.htm
 ```
-Fordi der kommer `ERROR 403: Forbidden` på alle permutationer af fil og katalog -navne. Apropos det jeg nævnte ovenover, siden kan simpelthen ikke indekseres af søgemaskiner som t.ex Google. Der ligger bestemt en del ulæst materiale. 
