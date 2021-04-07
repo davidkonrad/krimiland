@@ -1,5 +1,5 @@
 # :bulb:  Download / se PDF'en
-Det væsentlige er jo PDF'en, og hvis man ikke i forvejen kender GitHub kan det måske virke forvirrende. Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor (~27mb, 410 sider) og tager tid at renderere indlejret på siden.  Desværre ignorerer GitHub  `target` i links. Alternativer:
+Det væsentlige er jo PDF'en, og hvis man ikke i forvejen kender GitHub kan det måske virke forvirrende. Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor (~30mb, 445 sider) og tager tid at renderere indlejret på siden.  Desværre ignorerer GitHub  `target` i links. Alternativer:
 
 1. Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf i et nyt faneblad, eller
 2. Download zip https://github.com/davidkonrad/krimiland/archive/refs/heads/main.zip, eller
