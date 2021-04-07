@@ -63,8 +63,7 @@ function fix($from, $to) {
   $dom->loadHTMLFile($from);
   $images = $dom->getElementsByTagName('img');
   foreach($images as $image) {
-    $src = $image->getAttribute('src');
-    $src = str_replace('../', 'estonia%20final%20report/', $src);
+    $src = str_replace('../', 'estonia%20final%20report/', $image->getAttribute('src'));
     if (substr($src, 0, 7) === 'images/') {
       $src = 'estonia%20final%20report/'.$src;
     }
