@@ -74,7 +74,7 @@ Brug chromium-browserens indbyggede print -> destination -> save as PDF.
 ## Historik
 Liste over manuelle tilføjelser. Dvs. afsnit, bilag, billeder, de såkaldte "enclosures" o.lign som ikke blev fanget af den oprindelige rekursive `wget`, og som rummer t.ex indscannede emails og underkataloger med billeder.  Alle tilføjelser er en firetrinsraket: Download det relevante materiale, ret `filer.txt`, kør `fix-billeder.php`, generer PDF via en Chromium-browser.
 
-*06.04.2021*
+***06.04.2021***
 
 Tilføjede bilag 2.4.2.21, fixed relative stier i `fix-billeder.php`.
 ```bash
@@ -112,9 +112,14 @@ Tilføjede bilag 2.4.2.27
 wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.4.2.27.htm
 ```
 
-*07.04.2021*
+***07.04.2021***
 
 Tilføjede bilag 12.2.139
 ```bash
-wget -r -l 1  https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/12.2.139.htm
+wget -r -l 1 https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/12.2.139.htm
 ```
+I tror sikkert jeg er dum, hvorfor ikke bare 
+```bash
+wget -r -l https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/
+```
+Fordi der kommer `ERROR 403: Forbidden` på alle permutationer af fil og katalog -navne. Apropos det jeg nævnte ovenover, siden kan simpelthen ikke indekseres af søgemaskiner som t.ex Google. Der ligger bestemt en del ulæst materiale. 
