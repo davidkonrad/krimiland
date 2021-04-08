@@ -35,6 +35,9 @@ fix_billeder('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_151.ht
 fix_billeder('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_201.html', 
     'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_201.fixed.html');
 
+fix_billeder('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_401.html', 
+    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_401.fixed.html');
+
 
 //Fjerner det oprindelige, nu uanvendelige navigationssystem
 function fix_fjern_pile($file) {
@@ -79,6 +82,6 @@ fix_bilag('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_51.fixed.
 fix_bilag('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_101.fixed.html');
 fix_bilag('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_151.fixed.html');
 fix_bilag('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_201.fixed.html');
-
+fix_bilag('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_401.fixed.html');
 
 ?>

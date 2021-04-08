@@ -11,14 +11,15 @@ GitHub er ikke så glad for store filer (>50mb) så bilagene må splittes yderli
 <img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_51.pdf <sup>(171s, ∼18mb)</sup><br>
 <img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_101.pdf <sup>(487s, ∼38mb)</sup><br>
 <img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_151.pdf <sup>(205s, ∼15mb)</sup><br>
-<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_151.pdf <sup>(350s, ∼26mb)</sup>
+<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_201.pdf <sup>(269s, ∼26mb)</sup><br>
+<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_401.pdf <sup>(568s, ∼38mb)</sup>
 
-Der er nogle gevaldige huller i bilag omkring kapitel 17-21. Jeg frasorterer "døde" bilag, siderne findes men billedstierne fungerer ikke. Der er lignende "huller" omkring billedmateriale i selve rapporten. Det virker som et katalog er blevet slettet, eller at den server billederne lå på er slukket. 
+Der er nogle gevaldige huller i bilagsmaterialet omkring kapitel 17-21. Jeg frasorterer "døde" bilag, linksne' virker men billedstierne fungerer ikke. Der er lignende "huller" omkring billedmateriale i selve rapporten. Det virker som et katalog er blevet slettet, eller at den server billederne lå på er slukket.  Brandærgerligt, men i forhold til den totale mængde bilag dog alligevel beskedent. 
 
-Sidetallet svulmer op fordi hvert billede fylder en "A4-side", uanset størrelse, og de er forsynet med statiske, hardcodede  `width` / `height`-værdier. Tænker at sætte størrelserne på billederne "fri", nogle vil komme med i bedre kvalitet, andre vil fylde mindre. Når billederne først er lagt i en PDF er man doomed, kvaliteten bliver ikke stort bedre af at zoome ind.
+Status: Rapporten er samlet, er vel nået igennem måske 70% bilag. Se [bilag.md](bilag.md). Herefter vil jeg prøve at fylde hullerne op, har allerede fundet "skjulte" bilag. Skjulte fordi der ikke linkes til dem nogle steder, men eftersom rapportens indhold er bygget logisk op, har jeg haft held med at gætte stien til adskillige manglende bilag. I listen er de markeret med udråbstegn. 
 
 #### Alle filer
-1. Download zip https://github.com/davidkonrad/krimiland/archive/refs/heads/main.zip <sup>(∼200mb)</sup>, eller
+1. Download zip https://github.com/davidkonrad/krimiland/archive/refs/heads/main.zip <sup>(stor!)</sup>, eller
 2. Kopier hele repositoriet `$ git clone https://github.com/davidkonrad/krimiland.git`
 
 # Krimiland, opfølgning
@@ -65,6 +66,7 @@ $ xargs < _bilag_51.txt cat > ../estoniaferrydisaster.net.bilag_51.html
 $ xargs < _bilag_101.txt cat > ../estoniaferrydisaster.net.bilag_101.html
 $ xargs < _bilag_151.txt cat > ../estoniaferrydisaster.net.bilag_151.html
 $ xargs < _bilag_201.txt cat > ../estoniaferrydisaster.net.bilag_201.html
+$ xargs < _bilag_401.txt cat > ../estoniaferrydisaster.net.bilag_401.html
 ```
 
 #### Billeder
@@ -73,7 +75,7 @@ Det er kun selve teksten der er hentet ned og samlet, og desværre er samtlige b
 Et lille script, [fix.php](fix.php) retter et par fejl:
 
 * Ændrer relative billed-stier til absolutte
-* Trækker `&lt;title>` ud af bilag, og placerer dem som `&lt;h1>` headere foran indholdet
+* Trækker `<title>` ud af bilag, og placerer dem som `<h1>` headere foran indholdet
 * Fjerner "de blå pile" som bare fylder op
 
 #### PDF
@@ -86,6 +88,7 @@ $ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_51.
 $ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_101.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_101.fixed.html
 $ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_151.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_151.fixed.html
 $ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_201.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_201.fixed.html
+$ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_401.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_401.fixed.html
 ```
 Men `--print-to-pdf` medtager *altid* title, en grim header og sidetal. Så "pæne" PDF'er må fabrikeres manuelt.
 
