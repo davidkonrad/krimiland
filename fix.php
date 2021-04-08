@@ -7,8 +7,9 @@ function fix_billeder($from, $to) {
 	$images = $dom->getElementsByTagName('img');
 	foreach($images as $image) {
 		$src = $image->getAttribute('src');
+		$src = str_replace('../../', 'estonia%20final%20report/', $src);
 		$src = str_replace('../', 'estonia%20final%20report/', $src);
-		if (substr($src, 0, 7 ) === 'images/') {
+		if (substr($src, 0, 7) === 'images/') {
 			$src = 'estonia%20final%20report/'.$src;
 		}
 		$image->setAttribute('src', 'https://www.estoniaferrydisaster.net/'.$src);
@@ -27,6 +28,12 @@ fix_billeder('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_51.htm
 
 fix_billeder('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_101.html', 
     'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_101.fixed.html');
+
+fix_billeder('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_151.html', 
+    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_151.fixed.html');
+
+fix_billeder('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_201.html', 
+    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_201.fixed.html');
 
 
 //Fjerner det oprindelige, nu uanvendelige navigationssystem
@@ -66,8 +73,12 @@ function fix_bilag($file) {
 	$dom->save($file);
 }
 
+
 fix_bilag('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag.fixed.html');
 fix_bilag('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_51.fixed.html');
 fix_bilag('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_101.fixed.html');
+fix_bilag('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_151.fixed.html');
+fix_bilag('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_201.fixed.html');
+
 
 ?>

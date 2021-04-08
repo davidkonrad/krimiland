@@ -59,6 +59,8 @@ Har valgt at placere bilagene i deres egen PDF.  Det bliver for rodet at lægge 
 $ xargs < _bilag.txt cat > ../estoniaferrydisaster.net.bilag.html
 $ xargs < _bilag_51.txt cat > ../estoniaferrydisaster.net.bilag_51.html
 $ xargs < _bilag_101.txt cat > ../estoniaferrydisaster.net.bilag_101.html
+$ xargs < _bilag_151.txt cat > ../estoniaferrydisaster.net.bilag_151.html
+$ xargs < _bilag_201.txt cat > ../estoniaferrydisaster.net.bilag_201.html
 ```
 
 #### Billeder
@@ -78,6 +80,8 @@ $ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.pdf" www.
 $ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag.fixed.html
 $ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_51.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_51.fixed.html
 $ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_101.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_101.fixed.html
+$ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_151.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_151.fixed.html
+$ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_201.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_201.fixed.html
 ```
 Men `--print-to-pdf` medtager *altid* title, en grim header og sidetal. Så "pæne" PDF'er må fabrikeres manuelt.
 
