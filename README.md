@@ -2,16 +2,21 @@
 Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor og tager tid at renderere indlejret på siden.  Desværre ignorerer GitHub  `target` i links. 
 
 #### Selve rapporten
-Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf i et nyt faneblad<sup> (pt ∼23mb, 398 sider, mangler stadig en del sortering)</sup>
+Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf i et nyt faneblad<sup> (pt ∼23mb, 399 sider,</sup>
 
 #### Bilag
 GitHub er ikke så glad for store filer (>50mb) så bilagene må splittes yderligere op i bilag 1-50, 51-100, 101-150 osv.  Alle bilagsreferencer er forsynet med et fortløbende bilagsnummer i enden. T.ex bilag 2.4.2.22, her er det unikke bilagsnummer 22, og det hører til kapitel 2, afsnit 4, underafsnit 2.
 
-https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf <sup>(∼144s, ∼23mb)</sup>
-https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_51.pdf <sup>(∼163s, ∼18mb)</sup>
-https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_101.pdf <sup>(∼468s, ∼36mb)</sup>
+![](https://upload.wikimedia.org/wikipedia/commons/4/41/Breathe-application-pdf.svg | width=30")
+https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf <sup>(163s, ∼22mb)</sup>
+https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_51.pdf <sup>(171s, ∼18mb)</sup>
+https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_101.pdf <sup>(487s, ∼38mb)</sup>
+https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_151.pdf <sup>(205s, ∼15mb)</sup>
+https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_151.pdf <sup>(350s, ∼26mb)</sup>
 
-Vi har altså rundet 1.000 sider, men det kan man ikke regne med. T.ex fylder hvert billede en A4-side, uanset størrelse, og de er forsynet med statiske, hardcodede  `width` / `height`-værdier. Vil forsøge at trække bilagenes `title` ud som billedoverskrifter, og sætte størrelserne på dem fri.
+Der er nogle gevaldige huller i bilag omkring kapitel 17-21. Jeg frasorterer "døde" bilag, siderne findes men billedstierne fungerer ikke. Der er lignende "huller" omkring billedmateriale i selve rapporten. Det virker som et katalog er blevet slettet, eller at den server billederne lå på er slukket. 
+
+Sidetallet svulmer op fordi hvert billede fylder en "A4-side", uanset størrelse, og de er forsynet med statiske, hardcodede  `width` / `height`-værdier. Tænker at sætte størrelserne på billederne "fri", nogle vil komme med i bedre kvalitet, andre vil fylde mindre. Når billederne først er lagt i en PDF er man doomed, kvaliteten bliver ikke stort bedre af at zoome ind.
 
 #### Alle filer
 1. Download zip https://github.com/davidkonrad/krimiland/archive/refs/heads/main.zip <sup>(∼200mb)</sup>, eller
