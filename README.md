@@ -64,25 +64,11 @@ $ xargs < _bilag_101.txt cat > ../estoniaferrydisaster.net.bilag_101.html
 #### Billeder
 Det er kun selve teksten der er hentet ned og samlet, og desværre er samtlige billedreferencer baseret på relative `src`-stier, så rapporten er fuld af "tomme ruder".  For at fikse dette kan man hive samtlige billeder ned lokalt, og lægge dem i `/estonia final report/`-kataloget. Det giver mening hvis man vil sikre sin egen komplette kopi, men for at generere en PDF er det tilstrækkeligt at ændre de relative stier til absolutte:
 
-```php
-<?php
-function fix($from, $to) {
-  $dom = new DOMDocument('1.0');
-  $dom->loadHTMLFile($from);
-  $images = $dom->getElementsByTagName('img');
-  foreach($images as $image) {
-    $src = str_replace('../', 'estonia%20final%20report/', $image->getAttribute('src'));
-    if (substr($src, 0, 7) === 'images/') {
-      $src = 'estonia%20final%20report/'.$src;
-    }
-    $image->setAttribute('src', 'https://www.estoniaferrydisaster.net/'.$src);
-  }
-  $dom->save($to);
-}
-fix('www.estoniaferrydisaster.net/estoniaferrydisaster.net.html',  'www.estoniaferrydisaster.net/estoniaferrydisaster.net.fixed.html');
-?>
-```
-Se flere detaljer i `fix-billeder.php'.
+Et lille script, [fix.php](fix.php) retter et par fejl:
+
+* Ændrer relative billed-stier til absolutte
+* Trækker `&lt;title>` ud af bilag, og placerer dem som `&lt;h1>` headere foran indholdet
+* Fjerner "de blå pile" som bare fylder op
 
 #### PDF
 Åbn `estoniaferrydisaster.net.fixed.html` / `estoniaferrydisaster.net.bilag.fixed.html` (osv) med en chromium-browser, og brug den indbyggede print -> destination -> save as PDF.  Som genvej kan man generere PDF'erne i konsollen:
