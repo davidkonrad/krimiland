@@ -7,7 +7,8 @@ Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor
 #### Bilag
 GitHub er ikke så glad for store filer (>50mb) så bilagene må splittes yderligere op i bilag 1-50, 51-100, 101-150 osv.  Alle bilagsreferencer er forsynet med et fortløbende bilagsnummer i enden. T.ex bilag 2.4.2.22, her er det unikke bilagsnummer 22, og det hører til kapitel 2, afsnit 4, underafsnit 2.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Breathe-application-pdf.svg/128px-Breathe-application-pdf.svg.png | width="30")
+![pdf](https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Breathe-application-pdf.svg/128px-Breathe-application-pdf.svg.png | width="30")
+
 https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf <sup>(163s, ∼22mb)</sup>
 https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_51.pdf <sup>(171s, ∼18mb)</sup>
 https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_101.pdf <sup>(487s, ∼38mb)</sup>
