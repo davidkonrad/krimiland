@@ -2,16 +2,16 @@
 Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor og tager tid at renderere indlejret på siden.  Desværre ignorerer GitHub  `target` i links. 
 
 #### Selve rapporten
-Åbn https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf i et nyt faneblad<sup> (pt ∼23mb, 399 sider,</sup>
+<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf i et nyt faneblad<sup>(399s, ∼23mb)</sup>
 
 #### Bilag
 GitHub er ikke så glad for store filer (>50mb) så bilagene må splittes yderligere op i bilag 1-50, 51-100, 101-150 osv.  Alle bilagsreferencer er forsynet med et fortløbende bilagsnummer i enden. T.ex bilag 2.4.2.22, her er det unikke bilagsnummer 22, og det hører til kapitel 2, afsnit 4, underafsnit 2.
 
-<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25" style="position:relative;top:10px;">https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf <sup>(163s, ∼22mb)</sup><br>
-<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_51.pdf <sup>(171s, ∼18mb)</sup><br>
-<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_101.pdf <sup>(487s, ∼38mb)</sup><br>
-<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_151.pdf <sup>(205s, ∼15mb)</sup><br>
-<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_151.pdf <sup>(350s, ∼26mb)</sup>
+<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf <sup>(163s, ∼22mb)</sup><br>
+<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_51.pdf <sup>(171s, ∼18mb)</sup><br>
+<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_101.pdf <sup>(487s, ∼38mb)</sup><br>
+<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_151.pdf <sup>(205s, ∼15mb)</sup><br>
+<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_151.pdf <sup>(350s, ∼26mb)</sup>
 
 Der er nogle gevaldige huller i bilag omkring kapitel 17-21. Jeg frasorterer "døde" bilag, siderne findes men billedstierne fungerer ikke. Der er lignende "huller" omkring billedmateriale i selve rapporten. Det virker som et katalog er blevet slettet, eller at den server billederne lå på er slukket. 
 
