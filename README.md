@@ -9,6 +9,10 @@ GitHub er ikke så glad for store filer (>50mb) så bilagene må splittes yderli
 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Breathe-application-pdf.svg/128px-Breathe-application-pdf.svg.png" width="30">
+
+
+<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="20">
+
 https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf <sup>(163s, ∼22mb)</sup>
 https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_51.pdf <sup>(171s, ∼18mb)</sup>
 https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_101.pdf <sup>(487s, ∼38mb)</sup>
