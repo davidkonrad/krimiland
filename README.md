@@ -14,7 +14,7 @@ https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag
 Vi har altså rundet 1.000 sider, men det kan man ikke regne med. T.ex fylder hvert billede en A4-side, uanset størrelse, og de er forsynet med statiske, hardcodede  `width` / `height`-værdier. Vil forsøge at trække bilagenes `title` ud som billedoverskrifter, og sætte størrelserne på dem fri.
 
 #### Alle filer
-1. Download zip https://github.com/davidkonrad/krimiland/archive/refs/heads/main.zip, eller
+1. Download zip https://github.com/davidkonrad/krimiland/archive/refs/heads/main.zip <sup>(∼200mb)</sup>, eller
 2. Kopier hele repositoriet `$ git clone https://github.com/davidkonrad/krimiland.git`
 
 # Krimiland, opfølgning
