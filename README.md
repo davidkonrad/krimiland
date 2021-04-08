@@ -2,7 +2,7 @@
 Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor og tager tid at renderere indlejret på siden.  Desværre ignorerer GitHub  `target` i links. 
 
 #### Selve rapporten
-<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf i et nyt faneblad<sup>(399s, ∼23mb)</sup>
+<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf <sup>(399s, ∼23mb)</sup>
 
 #### Bilag
 GitHub er ikke så glad for store filer (>50mb) så bilagene må splittes yderligere op i bilag 1-50, 51-100, 101-150 osv.  Alle bilagsreferencer er forsynet med et fortløbende bilagsnummer i enden. T.ex bilag 2.4.2.22, her er det unikke bilagsnummer 22, og det hører til kapitel 2, afsnit 4, underafsnit 2.
