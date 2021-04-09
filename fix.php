@@ -41,17 +41,22 @@ function fix_fjern_pile($file) {
 		$map->nodeValue = ''; //!!?
 	}
 	$images = $dom->getElementsByTagName('img');
+	$remove = array('https://www.estoniaferrydisaster.net/estonia%20final%20report/images/buttons%20clear.gif',
+									'https://www.estoniaferrydisaster.net/estonia%20final%20report/images/buttons.jpg',
+									'https://www.estoniaferrydisaster.net/estonia%20final%20report/images/next.jpg');
 	foreach($images as $image) {
 		$src = $image->getAttribute('src');
-		if (in_array($src, array('https://www.estoniaferrydisaster.net/estonia%20final%20report/images/buttons%20clear.gif',
-														'https://www.estoniaferrydisaster.net/estonia%20final%20report/images/buttons.jpg'))) {
+		if (in_array($src, $remove)) {
 			$image->setAttribute('src', 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=');
 			$image->removeAttribute('usemap');
 		}
 	}
 	$dom->save($file);
 }
-fix_fjern_pile('www.estoniaferrydisaster.net/estoniaferrydisaster.net.fixed.html');
+
+foreach($files as $file) {
+	fix_fjern_pile($file.'fixed.html');
+}
 
 function fix_bilag($file) {
 	$dom = new DOMDocument('1.0');
