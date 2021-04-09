@@ -7,12 +7,13 @@ Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor
 #### Bilag
 GitHub er ikke så glad for store filer (>50mb) så bilagene må splittes yderligere op i bilag 1-50, 51-100, 101-150 osv.  Alle bilagsreferencer er forsynet med et fortløbende bilagsnummer i enden. T.ex bilag 2.4.2.22, her er det unikke bilagsnummer 22, og det hører til kapitel 2, afsnit 4, underafsnit 2.
 
-<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf <sup>(163s, ∼22mb)</sup><br>
+<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf <sup>(164s, ∼22mb)</sup><br>
 <img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_51.pdf <sup>(171s, ∼18mb)</sup><br>
-<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_101.pdf <sup>(487s, ∼38mb)</sup><br>
+<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_101.pdf <sup>(488s, ∼38mb)</sup><br>
 <img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_151.pdf <sup>(205s, ∼15mb)</sup><br>
-<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_201.pdf <sup>(269s, ∼26mb)</sup><br>
-<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_401.pdf <sup>(568s, ∼38mb)</sup>
+<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_201.pdf <sup>(269s, ∼18mb)</sup><br>
+<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_401.pdf <sup>(595s, ∼45mb)</sup>
+<img src="https://www.flaticon.com/svg/vstatic/svg/136/136522.svg?token=exp=1617902671~hmac=586c0d72039ab9ac322c1a1699f31a09" width="25">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_451.pdf <sup>(83s, ∼21mb)</sup>
 
 Der er nogle gevaldige huller i bilagsmaterialet omkring kapitel 17-21. Jeg frasorterer "døde" bilag, linksne' virker men billedstierne fungerer ikke. Der er lignende "huller" omkring billedmateriale i selve rapporten. Det virker som et katalog er blevet slettet, eller at den server billederne lå på er slukket.  Brandærgerligt, men i forhold til den totale mængde bilag dog alligevel beskedent. 
 
@@ -28,7 +29,7 @@ Dette er relateret til Krimiland afsnit 10. Hør programmerne her https://www.ra
 Der bliver i afsnittet omtalt et interessant website, [estoniaferrydisaster.net](https:/www.estoniaferrydisaster.net)
  -- et site som desværre er skæmmet af, at være svært tilgængelig. Orris ærgrer sig over, at man ikke kan få fat i rapporten i papirformat eller PDF, og der jokes med, om ikke nogle af lytterne kan tage opgaven på sig.  Dette er et foreløbigt resultat. 
 
-**Forslag / rettelser / forglemmelser, alle er mere end velkomne til at oprette et [issue](https://github.com/davidkonrad/krimiland/issues)**. 
+#### Forslag / rettelser / forglemmelser, alle er mere end velkomne til at oprette et [issue](https://github.com/davidkonrad/krimiland/issues)**. 
 
 # estoniaferrydisaster.net rapport som PDF
 
@@ -67,6 +68,7 @@ $ xargs < _bilag_101.txt cat > ../estoniaferrydisaster.net.bilag_101.html
 $ xargs < _bilag_151.txt cat > ../estoniaferrydisaster.net.bilag_151.html
 $ xargs < _bilag_201.txt cat > ../estoniaferrydisaster.net.bilag_201.html
 $ xargs < _bilag_401.txt cat > ../estoniaferrydisaster.net.bilag_401.html
+$ xargs < _bilag_401.txt cat > ../estoniaferrydisaster.net.bilag_451.html
 ```
 
 #### Billeder
@@ -89,6 +91,7 @@ $ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_101
 $ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_151.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_151.fixed.html
 $ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_201.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_201.fixed.html
 $ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_401.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_401.fixed.html
+$ chromium-browser --headless --print-to-pdf="estoniaferrydisaster.net.bilag_451.pdf" www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_451.fixed.html
 ```
 Men `--print-to-pdf` medtager *altid* title, en grim header og sidetal. Så "pæne" PDF'er må fabrikeres manuelt.
 

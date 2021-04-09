@@ -1,6 +1,17 @@
 <?php
 
-//Konverterer relative stier til absolutte
+$files = array(
+	'www.estoniaferrydisaster.net/estoniaferrydisaster.net.',
+	'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag.',
+	'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_51.',
+	'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_101.',
+	'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_151.',
+	'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_201.',
+	'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_401.',
+	'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_451.'
+);
+$report = $files[0];
+
 function fix_billeder($from, $to) {
 	$dom = new DOMDocument('1.0');
 	$dom->loadHTMLFile($from);
@@ -17,29 +28,10 @@ function fix_billeder($from, $to) {
 	$dom->save($to);
 }
 
-fix_billeder('www.estoniaferrydisaster.net/estoniaferrydisaster.net.html', 
-    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.fixed.html');
+foreach($files as $file) {
+	fix_billeder($file.'html', $file.'fixed.html');
+}
 
-fix_billeder('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag.html', 
-    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag.fixed.html');
-
-fix_billeder('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_51.html', 
-    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_51.fixed.html');
-
-fix_billeder('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_101.html', 
-    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_101.fixed.html');
-
-fix_billeder('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_151.html', 
-    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_151.fixed.html');
-
-fix_billeder('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_201.html', 
-    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_201.fixed.html');
-
-fix_billeder('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_401.html', 
-    'www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_401.fixed.html');
-
-
-//Fjerner det oprindelige, nu uanvendelige navigationssystem
 function fix_fjern_pile($file) {
 	$dom = new DOMDocument('1.0');
 	libxml_use_internal_errors(true);
@@ -61,7 +53,6 @@ function fix_fjern_pile($file) {
 }
 fix_fjern_pile('www.estoniaferrydisaster.net/estoniaferrydisaster.net.fixed.html');
 
-//Trækker <title> ud, tømmer headeren og placerer en <h1> foran indholdet
 function fix_bilag($file) {
 	$dom = new DOMDocument('1.0');
 	libxml_use_internal_errors(true);
@@ -76,12 +67,10 @@ function fix_bilag($file) {
 	$dom->save($file);
 }
 
-
-fix_bilag('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag.fixed.html');
-fix_bilag('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_51.fixed.html');
-fix_bilag('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_101.fixed.html');
-fix_bilag('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_151.fixed.html');
-fix_bilag('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_201.fixed.html');
-fix_bilag('www.estoniaferrydisaster.net/estoniaferrydisaster.net.bilag_401.fixed.html');
+foreach($files as $file) {
+	if ($file !== $report) {
+		fix_bilag($file.'fixed.html');
+	}
+}
 
 ?>
