@@ -29,8 +29,8 @@ chapter5.htm
 chapter6.htm
 6.3.1.htm
 6.4.htm
-6.5.2.htm
 6.5.htm
+6.5.2.htm
 chapter7.htm
 7.2.htm
 7.3.htm

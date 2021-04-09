@@ -11,6 +11,7 @@ https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/2.4.4.5
 https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/2.4.4.55.htm
 https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/2.4.2.27.htm
 https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/12.2.139.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/2.2.3.htm
 https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/2.3.1.5.htm
 https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/2.3.1.6.htm
 https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/2.3.1.7.htm
@@ -124,6 +125,7 @@ https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/6.4.119
 https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/6.4.120.htm
 https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/6.4.121.htm
 https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/6.4.122.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/6.5.1.124.htm
 https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/6.5.2.125.htm
 https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/6.5.2.126.htm
 https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/6.5.2.127.htm
@@ -428,5 +430,48 @@ https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/enc 4/3
 https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/enc 4/34.10.436.htm
 https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/enc 4/34.11.437.htm
 https://www.estoniaferrydisaster.net/estonia final report/enclosures HTM/enc 4/34.12.438.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/36.1.443.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/36.1.444.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/36.2.445.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/36.2.445.1.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/36.5.446.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/36.5.446.1.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/36.5.446.2.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/37.2.448.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/37.2.449.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/37.2.450.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/37.2.451.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/37.2.452.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/37.2.453.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/37.2.454.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/37.2.455.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/37.2.456.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/37.2.457.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/37.2.458.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/37.2.459.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/37.2.460.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/37.2.461.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/38.3.462.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/38.5.463.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/38.5.464.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/38.5.465.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/39.2.466.1.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/39.3.467.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/39.3.468.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/39.3.469.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/39.3.470.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/39.4.471.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/39.5.472.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/39.5.474.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/39.5.475.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/39.5.476.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/39.5.477.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/39.5.478.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/40.2.480a.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/40.2.480.1a.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/40.3.481.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/40.3.482.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/40.4.483a.htm
+https://www.estoniaferrydisaster.net/estonia%20final%20report/enclosures%20HTM/enc5/40.4.484a.htm
 
 ```
