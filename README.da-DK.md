@@ -2,18 +2,18 @@
 Du kan klikke på `estoniaferrydisaster.net.pdf` ovenover, men filen er halvstor og tager tid at renderere indlejret på siden.  Desværre ignorerer GitHub  `target` i links. 
 
 #### Selve rapporten
-<img src="assets/PNG_24.png">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf <sup>(399s, ∼23mb)</sup>
+![](assets/PDF_24.png)  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.pdf <sup>(399s, ∼23mb)</sup>
 
 #### Bilag
 GitHub er ikke så glad for store filer (>50mb) så bilagene må splittes yderligere op i bilag 1-50, 51-100, 101-150 osv.  Alle bilagsreferencer er forsynet med et fortløbende bilagsnummer i enden. T.ex bilag 2.4.2.22, her er det unikke bilagsnummer 22, og det hører til kapitel 2, afsnit 4, underafsnit 2.
 
-<img src="assets/PNG_24.png">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf <sup>(164s, ∼22mb)</sup><br>
-<img src="assets/PNG_24.png">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_51.pdf <sup>(171s, ∼18mb)</sup><br>
-<img src="assets/PNG_24.png">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_101.pdf <sup>(488s, ∼38mb)</sup><br>
-<img src="assets/PNG_24.png">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_151.pdf <sup>(205s, ∼15mb)</sup><br>
-<img src="assets/PNG_24.png">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_201.pdf <sup>(269s, ∼18mb)</sup><br>
-<img src="assets/PNG_24.png">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_401.pdf <sup>(595s, ∼45mb)</sup><br>
-<img src="assets/PNG_24.png">  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_451.pdf <sup>(83s, ∼21mb)</sup>
+![](assets/PDF_24.png)  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag.pdf <sup>(164s, ∼22mb)</sup><br>
+![](assets/PDF_24.png)  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_51.pdf <sup>(171s, ∼18mb)</sup><br>
+![](assets/PDF_24.png)  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_101.pdf <sup>(488s, ∼38mb)</sup><br>
+![](assets/PDF_24.png)  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_151.pdf <sup>(205s, ∼15mb)</sup><br>
+![](assets/PDF_24.png)  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_201.pdf <sup>(269s, ∼18mb)</sup><br>
+![](assets/PDF_24.png)  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_401.pdf <sup>(595s, ∼45mb)</sup><br>
+![](assets/PDF_24.png)  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_451.pdf <sup>(83s, ∼21mb)</sup>
 
 Der er nogle gevaldige huller i bilagsmaterialet omkring kapitel 17-21. Jeg frasorterer "døde" bilag, linksne' virker men billedstierne fungerer ikke. Der er lignende "huller" omkring billedmateriale i selve rapporten. Det virker som et katalog er blevet slettet, eller at den server billederne lå på er slukket.  Brandærgerligt, men i forhold til den totale mængde bilag dog alligevel beskedent. 
 
