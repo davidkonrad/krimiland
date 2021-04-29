@@ -20,7 +20,7 @@ This is a "compiled" version of the [Estonia ferry disaster report](https://www.
 ![](assets/PDF_24.png)  https://github.com/davidkonrad/krimiland/raw/main/estoniaferrydisaster.net.bilag_451.pdf <sup>(83p, ∼21mb)</sup>
 
 ## Motivation
-This [report](https://www.estoniaferrydisaster.net/estonia%20final%20report/Contents.htm), made by the german 'Group of Experts' (as they call themselves) are by many considered as one of the most comprehensive and thorough analysis of the Esinioan ferry disaster, 1994.
+This [report](https://www.estoniaferrydisaster.net/estonia%20final%20report/Contents.htm), made by the german '*Group of Experts*' (as they call themselves) are by many people considered as one of the most comprehensive and thorough expert analysis of the [MS Estonia ferry disaster](https://en.wikipedia.org/wiki/MS_Estonia), 1994.
 
 However, while the report is online and available for anyone to read, it is convoluted inside a 20 year old website layout, hard to navigate and overview.  To read the report you need to click back and forth hundreds of times, and will for sure at some point loose context and orientation. 
 
